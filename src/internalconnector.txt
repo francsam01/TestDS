@@ -1,0 +1,19 @@
+Code snippet:
+
+DEV_WINDOWS:
+    cc_machine           : 10.10.0.2
+    citrix_machine       : zeth01236
+    citrix_admin_user    : tlaloth
+    citrix_admin_pass    : ChangeMe
+    citrix_admin_password: "asdfASwfqre="
+    citrix_staging_root  : \\anubis.amdocs.com\Code
+    citrix_username      : "tuno\shistoso"
+    citrix_password      : "f31QF$VF"Qcf"
+    _ansible_user        : pancho.sanchez@AMDOCS.COM
+    _ansible_password    : 'L!nux980'
+    _ansible_port        : 5985
+    _ansible_connection  : winrm
+    _ansible_winrm_transport  : kerberos
+    _ansible_winrm_server_cert_validation : ignore
+    _staging_server      : quetzalcoatl.amdocs.com
+    _pvs_server          : thanos.amdocs.com

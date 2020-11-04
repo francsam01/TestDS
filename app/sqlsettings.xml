@@ -1,0 +1,38 @@
+database_credentials     : "datasolution/admin123@//chistoso.amdocs.com:1525/AMBIENT"
+database_user            : "root"
+database_password        : "ZASqwASF01.ar"
+database_instance        : "GITBilling"
+debug_flag               : "N"
+temp_scripts             : "{{ansible_env.HOME}}/.ansible/temp"
+ansible_root_dir         : "{{ansible_env.HOME}}/.ansible"
+controller_root_dir      : "/npeinf/ansible/ambient"
+qcp_url                  : "https://chistoso.amdocs.com/api/v2/deploy"
+qcp_auth                 : "c2Ftc29uOlZ0ASDFWEFvrgdfgAd2dxUnc="
+qcp_application          : "sagitarious"
+qcp_akmid_CSM            : "100260"
+qcp_akmid_Billing        : "100257"
+admin_user               : "vsttadm"
+widget_deploy_files      : "api.war manifest-be.yml widget-app-web.war manifest-fe.yml"
+pcf_api                  : "https://chistoso.amdocs.com"
+pcf_org                  : "billing-amdocs-+npe"
+pcf_user                 : "Zeus"
+pcf_password             : "Thunder2."
+pcf_app_name             : "tmus-widges-be"
+CCPROJECTHOME            : "/vsphome/ccvsp"
+cc_storage_root          : "/artifact"
+max_thread_number        : 5
+thread_byte_size         : 10000000000
+job_information_file     : ".job_info"
+rsync_group_file         : ".group_file"
+starting_version         : 233
+backup_dir               : ".Ambient/Backup"
+#boot_ind                 : "N"
+qat_monitroing_host      : zeus101
+qat_monitroing_path      : "/tstuser/vsttadm/etes/tuxedo_monitor"
+pronghorn_header         : "Content-Type: application/json"
+pronghorn_url            : 'https://chistoso.amdocs.com:3443'
+pronghorn_login          : "/login"    # POST
+pronghorn_get            : "/A10Service/member/status/search?token="   # POST
+pronghorn_change         : "/A10Service/member/status/direct?token="  # POST
+pronghorn_credentials    : '{"user":{"username":"Anubis","password":"bnrHgpS4"}}'
+citrix_staging_server    : "zeth01236"
